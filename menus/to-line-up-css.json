@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle to-line-up-css",
+        "command": "to-line-up-css:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "to-line-up-css",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "to-line-up-css:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
